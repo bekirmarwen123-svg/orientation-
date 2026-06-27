@@ -1,0 +1,97 @@
+body{
+    margin:0;
+    background:#eef3ff;
+    font-family:Arial, sans-serif;
+}
+
+/* container */
+.mindmap{
+    padding:40px 20px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+/* centre */
+.center{
+    background:#003b99;
+    color:white;
+    padding:18px 40px;
+    border-radius:18px;
+    font-size:28px;
+    font-weight:bold;
+    margin-bottom:40px;
+    text-align:center;
+}
+
+/* branches container */
+.branches{
+    display:flex;
+    flex-wrap:wrap;          /* important: responsive */
+    justify-content:center;
+    gap:20px;
+    width:100%;
+    max-width:1400px;
+}
+
+/* branch card */
+.branch{
+    background:white;
+    width:260px;
+    padding:15px;
+    border-radius:15px;
+    box-shadow:0 6px 18px rgba(0,0,0,0.12);
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    position:relative;
+}
+
+/* title */
+.title{
+    color:#a3b6e2;
+    font-weight:bold;
+    font-size:16px;
+    text-align:center;
+    line-height:1.4;
+}
+
+/* node */
+.node{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+/* name */
+.name{
+    background:#003b99;
+    color:white;
+    padding:10px;
+    border-radius:10px;
+    font-size:13px;
+    text-align:center;
+    word-break:break-word;
+}
+
+/* card */
+.card{
+    background:white;
+    border-left:4px solid #003b99;
+    padding:10px;
+    border-radius:10px;
+    font-size:13px;
+    box-shadow:0 3px 10px rgba(0,0,0,0.1);
+}
+
+.card p{
+    margin:5px 0;
+}
+.negative{
+    color:red;
+    font-weight: bold;
+}
+.positive{
+    color:rgb(46, 190, 46);
+    font-weight: bold;
+}
